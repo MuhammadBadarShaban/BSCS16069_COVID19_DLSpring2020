@@ -143,3 +143,30 @@ Accuracy of the network on the test images: 96 %
 Confusion Matrix: array ([[572, 43],
                           [ 17, 868]]),
 F1-Score: 0.9710680488199116
+
+
+VGG16 Focal Loss:
+Training:
+Accuracy of the network on the train images: 88 %
+Confusion Matrix for Multi-Label:
+(array([[[5992,    8],
+         [  91,  109]],
+ 
+        [[2018,  182],
+         [ 247, 3753]],
+ 
+        [[3937,  263],
+         [ 271, 1729]]])
+F1-Score: 0.9378389490720238)
+Validation:
+Accuracy of the network on the validation images: 91 %
+Confusion Matrix for Multi-Label:
+(array([[[598,   2],
+         [ 10,  18]],
+ 
+        [[214,  14],
+         [ 13, 387]],
+ 
+        [[407,  21],
+         [ 14, 186]]])
+F1-Score: 0.9333243129731208)
